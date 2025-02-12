@@ -1,0 +1,132 @@
+{
+  "base": {
+    "font-family": {
+      "headings": {},
+      "body": {}
+    },
+    "font-weight": {
+      "regular": {},
+      "semibold": {},
+      "bold": {}
+    },
+    "font-size": {
+      "h1": {},
+      "h2": {},
+      "h3": {},
+      "h4": {},
+      "h5": {},
+      "h6": {},
+      "paragraph": {},
+      "link": {},
+      "c4": {},
+      "c5": {},
+      "c6": {}
+    },
+    "line-height": {
+      "h1": {},
+      "h2": {},
+      "h3": {},
+      "h4": {},
+      "h5": {},
+      "h6": {},
+      "paragraph": {},
+      "link": {},
+      "c4": {},
+      "c5": {},
+      "c6": {}
+    },
+    "letter-spacing": {
+      "base": {}
+    },
+    "paragraph-spacing": {
+      "base": {},
+      "paragraph": {}
+    }
+  },
+  "figma-exclusive": {
+    "h1": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "h2": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "h3": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "h4": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "h5": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "h6": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "paragraph": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "paragraph-bold": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "link": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "c4": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "c5": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    },
+    "c6": {
+      "font-weight": {},
+      "font-size": {},
+      "line-height": {},
+      "letter-spacing": {},
+      "paragraph-spacing": {}
+    }
+  }
+}

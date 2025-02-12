@@ -1,0 +1,295 @@
+{
+  "base": {
+    "spacing": {
+      "xxxs": {},
+      "xxs": {},
+      "xs": {},
+      "xs2": {},
+      "s": {},
+      "s2": {},
+      "s3": {},
+      "m": {},
+      "l": {},
+      "xl": {}
+    },
+    "radius": {
+      "default": {},
+      "none": {}
+    }
+  },
+  "component": {
+    "app-switcher": {
+      "padding-vertical": {},
+      "padding-horizontal": {},
+      "app-switcher-width": {},
+      "structure-width": {},
+      "structure-height": {},
+      "item-width": {},
+      "item-height": {}
+    },
+    "application-number": {
+      "gap": {},
+      "phase-padding-horizontal": {},
+      "phase-padding-vertical": {},
+      "procedure-padding-horizontal": {},
+      "procedure-padding-vertical": {},
+      "language-padding-horizontal": {},
+      "language-padding-vertical": {}
+    },
+    "button": {
+      "min-width": {},
+      "padding-vertical-mini": {},
+      "padding-horizontal-mini": {},
+      "height-mini": {},
+      "icon-only": {
+        "max-width-mini": {},
+        "max-width-compact": {},
+        "max-width-default": {}
+      },
+      "padding-vertical-compact": {},
+      "padding-horizontal-compact": {},
+      "height-compact": {},
+      "padding-vertical-default": {},
+      "padding-horizontal-default": {},
+      "height-default": {}
+    },
+    "badge-dot": {
+      "size-mini": {},
+      "size-compact": {},
+      "size-default": {},
+      "size-large": {}
+    },
+    "badge-number": {
+      "padding-horizontal-compact": {},
+      "padding-horizontal-default": {}
+    },
+    "contextmenu": {
+      "menulist": {
+        "max-height": {}
+      }
+    },
+    "card": {
+      "padding-compact": {},
+      "header": {
+        "space-between-compact": {},
+        "space-between-default": {}
+      },
+      "padding-default": {}
+    },
+    "checkbox": {
+      "space-between-mini": {},
+      "space-between-compact": {},
+      "space-between-default": {}
+    },
+    "datepicker": {
+      "content-space-between": {},
+      "heading-space-between": {},
+      "padding-horizontal": {},
+      "padding-vertical": {}
+    },
+    "dialog": {
+      "content-space-between": {},
+      "title-space-between": {},
+      "separator": {
+        "space-between": {},
+        "space-between-default": {}
+      },
+      "actions-space-between": {},
+      "padding-mini": {},
+      "padding-compact": {},
+      "padding-default": {}
+    },
+    "drawer": {
+      "padding-vertical": {},
+      "padding-horizontal": {},
+      "height": {},
+      "icon-only-max-width": {},
+      "min-width": {},
+      "drawer-height": {},
+      "drawer-width": {}
+    },
+    "feedback": {
+      "padding-horizontal": {},
+      "padding-vertical": {},
+      "space-between": {}
+    },
+    "form-field": {
+      "space-between": {}
+    },
+    "header": {
+      "padding-horizontal": {},
+      "width": {}
+    },
+    "history": {
+      "activity-panel-spacing-horizontal": {},
+      "min-width": {},
+      "padding-vertical-default": {},
+      "padding-horizontal-default": {},
+      "comment": {
+        "height-default": {},
+        "spacing-vertical": {},
+        "height-compact": {},
+        "spacing-vertical-compact": {}
+      },
+      "spacing-vertical-default": {},
+      "padding-vertical-compact": {},
+      "padding-horizontal-compact": {},
+      "spacing-vertical-compact": {}
+    },
+    "icon": {
+      "size-small": {},
+      "size-medium": {},
+      "size-large": {},
+      "size-xlarge": {}
+    },
+    "input": {
+      "padding-vertical-mini": {},
+      "padding-horizontal-mini": {},
+      "height-mini": {},
+      "padding-vertical-compact": {},
+      "padding-horizontal-compact": {},
+      "height-compact": {},
+      "padding-vertical-default": {},
+      "padding-horizontal-default": {},
+      "height": {}
+    },
+    "keyboard-shortcuts": {
+      "width": {},
+      "height": {}
+    },
+    "link": {
+      "space-between-mini": {},
+      "space-between-compact": {},
+      "space-between-default": {}
+    },
+    "list": {
+      "space-between": {},
+      "padding-compact": {},
+      "padding-default": {}
+    },
+    "notification": {
+      "padding": {},
+      "content-space-between": {},
+      "actions-space-between": {},
+      "container-space-between": {}
+    },
+    "panel": {
+      "min-width-left-actions": {},
+      "padding": {},
+      "space-between": {},
+      "header": {
+        "padding-mini": {},
+        "padding-compact": {},
+        "padding-default": {}
+      }
+    },
+    "popover": {
+      "max-width-mini": {},
+      "max-width-compact": {},
+      "max-width-default": {}
+    },
+    "role-indicator": {
+      "text-padding-horizontal": {},
+      "badge-padding-horizontal": {}
+    },
+    "sidebar": {
+      "min-width-mini": {},
+      "padding-vertical-mini": {},
+      "padding-horizontal-mini": {},
+      "height-mini": {},
+      "icon-only": {
+        "max-width-mini": {},
+        "max-width-compact": {},
+        "max-width-default": {}
+      },
+      "padding-vertical-compact": {},
+      "min-width-compact": {},
+      "padding-horizontal-compact": {},
+      "height-compact": {},
+      "padding-vertical-default": {},
+      "min-width-default": {},
+      "padding-horizontal-default": {},
+      "height-default": {}
+    },
+    "skeleton": {
+      "small": {},
+      "large": {},
+      "xlarge": {},
+      "medium": {},
+      "xsmall": {}
+    },
+    "slider": {
+      "thumb-circle-padding-vertical": {},
+      "thumb-circle-padding-horizontal": {},
+      "thumb-circle-radius-default": {},
+      "bar-spacing-vertical": {},
+      "thumb": {
+        "default": {
+          "radius-default": {}
+        }
+      }
+    },
+    "tabs": {
+      "space-between-content": {},
+      "space-between-underline": {},
+      "phantom": {
+        "space-between-items-mini": {},
+        "space-between-items-compact": {},
+        "space-between-items": {}
+      },
+      "solid": {
+        "padding-horizontal-mini": {},
+        "height-mini": {},
+        "padding-horizontal-compact": {},
+        "height-compact": {},
+        "padding-horizontal-default": {},
+        "height-default": {}
+      }
+    },
+    "tag": {
+      "radius": {},
+      "padding-horizontal": {},
+      "padding-vertical": {},
+      "space-between": {}
+    },
+    "textarea": {
+      "space-between": {},
+      "padding-right": {},
+      "min-height-resizable-mini": {},
+      "min-height-autosize-mini": {},
+      "min-height-resizable-compact": {},
+      "min-height-autosize-compact": {},
+      "min-height-resizeable-default": {},
+      "min-height-autosize-default": {}
+    },
+    "toggle": {
+      "space-between-mini": {},
+      "padding-horizontal": {},
+      "padding-text-on-horizontal": {},
+      "radius": {},
+      "padding-text-off-horizontal-mini": {},
+      "circle-size-mini": {},
+      "height-mini": {},
+      "space-between-compact": {},
+      "padding-text-off-horizontal-compact": {},
+      "circle-size-compact": {},
+      "height-compact": {},
+      "space-between-default": {},
+      "padding-text-off-horizontal-default": {},
+      "circle-size-default": {},
+      "height": {}
+    },
+    "treeview": {
+      "space-horizontal": {},
+      "padding-left-compact": {},
+      "padding-vertical-compact": {},
+      "padding-left-default": {},
+      "padding-right-default": {},
+      "padding-vertical-default": {},
+      "padding-right-compact": {}
+    }
+  },
+  "figma-exclusive": {
+    "spacing-background": {}
+  }
+}

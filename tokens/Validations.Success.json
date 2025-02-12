@@ -1,416 +1,64 @@
 {
-  "message": {
-    "color-icon-signal-message": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-icon}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
+  "component": {
+    "message": {
+      "color-icon-signal-message": {},
+      "color-text-signal-message": {}
+    },
+    "input": {
+      "default": {
+        "color-bg-input": {},
+        "color-border-input": {}
       }
     },
-    "color-text-signal-message": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-text}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
+    "checkbox": {
+      "unchecked": {
+        "color-bg-boxes": {},
+        "color-border-boxes": {},
+        "color-fg-boxes": {}
+      },
+      "hover": {
+        "color-bg-boxes-hover": {},
+        "color-border-boxes-hover": {},
+        "color-fg-boxes-hover": {}
+      },
+      "checked&mixed": {
+        "color-bg-boxes-selected": {},
+        "color-border-boxes-selected": {},
+        "color-fg-boxes-selected": {}
       }
     },
-    "useText": {
-      "$type": "boolean",
-      "$value": false,
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
+    "dialog": {
+      "color-bg-dialog": {},
+      "color-border-dialog": {}
     },
-    "iconName": {
-      "$type": "string",
-      "$value": "check_circle",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "TEXT_CONTENT"
-          ],
-          "codeSyntax": {}
-        }
-      }
+    "feedback": {
+      "color-bg-feedback": {},
+      "color-border-feedback": {},
+      "color-icon-feedback": {}
     },
-    "hasHintIcon": {
-      "$type": "boolean",
-      "$value": true,
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
+    "notification": {
+      "color-bg-notification": {},
+      "color-border-notification": {},
+      "color-icon-notification": {}
+    },
+    "spinner": {
+      "color-bg-spinner": {}
     }
   },
-  "input": {
-    "default": {
-      "color-bg-input": {
-        "$type": "color",
-        "$value": "{component.signal.color-signal-success-bg}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-border-input": {
-        "$type": "color",
-        "$value": "{component.signal.color-signal-success-border}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
-    }
-  },
-  "checkbox": {
-    "unchecked": {
-      "color-bg-boxes": {
-        "$type": "color",
-        "$value": "{semantic.color-bg}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-border-boxes": {
-        "$type": "color",
-        "$value": "{component.signal.color-signal-success-border}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-fg-boxes": {
-        "$type": "color",
-        "$value": "{semantic.color-bg}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
+  "figma-exclusive": {
+    "message": {
+      "useText": {},
+      "iconName": {},
+      "hasHintIcon": {}
     },
-    "hover": {
-      "color-bg-boxes-hover": {
-        "$type": "color",
-        "$value": "{semantic.color-bg}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-border-boxes-hover": {
-        "$type": "color",
-        "$value": "{component.signal.color-signal-success-border}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-fg-boxes-hover": {
-        "$type": "color",
-        "$value": "{semantic.color-bg}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
+    "dialog": {
+      "iconName": {}
     },
-    "checked&mixed": {
-      "color-bg-boxes-selected": {
-        "$type": "color",
-        "$value": "{component.signal.color-signal-success-border}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-border-boxes-selected": {
-        "$type": "color",
-        "$value": "{color-transparent}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-fg-boxes-selected": {
-        "$type": "color",
-        "$value": "{semantic.color-bg}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
-    }
-  },
-  "dialog": {
-    "color-bg-dialog": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-bg}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
+    "feedback": {
+      "iconName": {}
     },
-    "color-border-dialog": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-border}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "iconName": {
-      "$type": "string",
-      "$value": "{message.iconName}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "TEXT_CONTENT"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    }
-  },
-  "feedback": {
-    "color-bg-feedback": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-bg}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "color-border-feedback": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-border}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "color-icon-feedback": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-border}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "iconName": {
-      "$type": "string",
-      "$value": "{message.iconName}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "TEXT_CONTENT"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    }
-  },
-  "notification": {
-    "color-bg-notification": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-bg}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "color-border-notification": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-border}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "color-icon-notification": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-border}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    },
-    "iconName": {
-      "$type": "string",
-      "$value": "{message.iconName}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "TEXT_CONTENT"
-          ],
-          "codeSyntax": {}
-        }
-      }
-    }
-  },
-  "spinner": {
-    "color-bg-spinner": {
-      "$type": "color",
-      "$value": "{component.signal.color-signal-success-icon}",
-      "$description": "",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {}
-        }
-      }
+    "notification": {
+      "iconName": {}
     }
   }
 }
