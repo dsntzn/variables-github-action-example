@@ -3,6 +3,12 @@ import { rgbToHex } from './color.js'
 import { Token, TokensFile } from './token_types.js'
 
 function tokenTypeFromVariable(variable: LocalVariable) {
+  const tokenTypeRegex = /\[tokenType:(.+)\]/ // token type structure in description
+  const tokenType = description.match(tokenTypeRegex)?.[1]
+  // parse custom tokenType from description
+  if(tokenType) {
+    return tokenType
+  }
   switch (variable.resolvedType) {
     case 'BOOLEAN':
       return 'boolean'
