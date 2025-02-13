@@ -3,13 +3,16 @@ import { rgbToHex } from './color.js'
 import { Token, TokensFile } from './token_types.js'
 
 function tokenTypeFromVariable(variable: LocalVariable) {
-  // token type structure in description
-  const tokenTypeRegex = /\[tokenType:(.+)\]/
-  const tokenType = variable.description.match(tokenTypeRegex)?.[1]
-  // parse custom tokenType from description
-
-  if (tokenType) {
-    return tokenType
+  // @ts-ignore-next-line
+  if (variable.scopes.includes('FONT_FAMILY')) {
+    return 'fontFamily'
+  }
+  // @ts-ignore-next-line
+  if (variable.scopes.includes('FONT_STYLE')) {
+    return 'fontStyle'
+  }
+  if (variable.scopes.includes('WIDTH_HEIGHT') || variable.scopes.includes('GAP')) {
+    return 'dimension'
   }
 
   switch (variable.resolvedType) {
@@ -44,6 +47,12 @@ function tokenValueFromVariable(
   }
 }
 
+function tokenUnitFromVariable(variable: LocalVariable) {
+  if (variable.scopes.includes('WIDTH_HEIGHT') || variable.scopes.includes('GAP')) {
+    return 'px'
+  }
+}
+
 export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVariablesResponse) {
   const tokenFiles: { [fileName: string]: TokensFile } = {}
   const localVariableCollections = localVariablesResponse.meta.variableCollections
@@ -66,29 +75,44 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
 
       let obj: any = tokenFiles[fileName]
 
-      variable.name.split('/').forEach((groupName) => {
-        obj[groupName] = obj[groupName] || {}
-        obj = obj[groupName]
-      })
+      // omit figma exclusive variables in the tokens
+      if (variable.name.split('/')[0] !== 'figma-exclusive') {
+        variable.name.split('/').forEach((groupName) => {
+          obj[groupName] = obj[groupName] || {}
+          obj = obj[groupName]
+        })
 
-      try {
-        const token: Token = {
-          $type: tokenTypeFromVariable(variable),
-          $value: tokenValueFromVariable(variable, mode.modeId, localVariables),
-          $description: variable.description,
-          $extensions: {
+        try {
+          const token: Token = {
+            $type: tokenTypeFromVariable(variable),
+          }
+
+          const tokenValue = tokenValueFromVariable(variable, mode.modeId, localVariables)
+          const tokenUnit = tokenUnitFromVariable(variable)
+
+          if (tokenUnit) {
+            token['$value'] = {
+              value: tokenValue,
+              unit: tokenUnit,
+            }
+          } else {
+            token['$value'] = tokenValue
+          }
+
+          token['$description'] = variable.description
+          token['$extensions'] = {
             'com.figma': {
               hiddenFromPublishing: variable.hiddenFromPublishing,
               scopes: variable.scopes,
               codeSyntax: variable.codeSyntax,
             },
-          },
-        }
+          }
 
-        Object.assign(obj, token)
-      } catch (e) {
-        console.log('Fix this variable:', variable, 'with this mode: ', mode.modeId)
-        console.log(e)
+          Object.assign(obj, token)
+        } catch (e) {
+          console.log('Fix this variable:', variable, 'with this mode: ', mode.modeId)
+          console.log(e)
+        }
       }
     })
   })

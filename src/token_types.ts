@@ -17,8 +17,24 @@ export interface Token {
    *
    * We also allow 'dimension', 'fontFamily' and 'fontWeight in addition to the core repository
    */
-  $type: 'color' | 'number' | 'string' | 'boolean' | 'dimension' | 'fontFamily' | 'fontWeight'
-  $value: string | number | boolean
+  $type:
+    | 'color'
+    | 'number'
+    | 'string'
+    | 'boolean'
+    | 'dimension'
+    | 'fontFamily'
+    | 'fontWeight'
+    | 'fontStyle'
+    | 'duration'
+  $value:
+    | string
+    | number
+    | boolean
+    | {
+        value: number
+        unit: string
+      }
   $description?: string
   $extensions?: {
     /**
