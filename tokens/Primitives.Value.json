@@ -2102,7 +2102,7 @@
   "color-grey-0": {
     "$type": "color",
     "$value": "#ffffff",
-    "$description": "",
+    "$description": "white",
     "$extensions": {
       "com.figma": {
         "hiddenFromPublishing": false,
@@ -2270,7 +2270,7 @@
   "color-grey-1000": {
     "$type": "color",
     "$value": "#000000",
-    "$description": "Black",
+    "$description": "black",
     "$extensions": {
       "com.figma": {
         "hiddenFromPublishing": false,

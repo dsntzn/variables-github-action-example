@@ -1,5 +1,5 @@
 {
-  "semantic": {
+  "global": {
     "color-bg": {
       "$type": "color",
       "$value": "{color-bluegrey-900}",
@@ -242,7 +242,7 @@
     },
     "color-bg-tertiary-active": {
       "$type": "color",
-      "$value": "{color-grey-900}",
+      "$value": "{color-bluegrey-700}",
       "$description": "",
       "$extensions": {
         "com.figma": {
@@ -767,7 +767,7 @@
   },
   "component": {
     "avatar": {
-      "color-bg-avatar": {
+      "color-bg": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -783,8 +783,69 @@
         }
       }
     },
+    "toggle": {
+      "New group": {
+        "color-bg-toggle-component": {
+          "$type": "color",
+          "$value": "{color-grey-500}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "color-bg-off": {
+        "$type": "color",
+        "$value": "{color-grey-500}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "color-bg-off-hover": {
+        "$type": "color",
+        "$value": "{color-grey-400}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "color-bg-off-disabled": {
+        "$type": "color",
+        "$value": "#686e71",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
     "badge": {
-      "color-bg-badge-red": {
+      "color-bg-red": {
         "$type": "color",
         "$value": "{color-red-900}",
         "$description": "",
@@ -799,7 +860,7 @@
           }
         }
       },
-      "color-bg-badge-red-disabled": {
+      "color-bg-red-disabled": {
         "$type": "color",
         "$value": "#77251f",
         "$description": "",
@@ -814,7 +875,7 @@
           }
         }
       },
-      "color-bg-badge-grey": {
+      "color-bg-grey": {
         "$type": "color",
         "$value": "{color-bluegrey-500}",
         "$description": "",
@@ -829,7 +890,7 @@
           }
         }
       },
-      "color-bg-badge-grey-disabled": {
+      "color-bg-grey-disabled": {
         "$type": "color",
         "$value": "#4b5e6b",
         "$description": "",
@@ -844,7 +905,7 @@
           }
         }
       },
-      "color-bg-badge-green": {
+      "color-bg-green": {
         "$type": "color",
         "$value": "{color-lightgreen-700}",
         "$description": "",
@@ -859,7 +920,7 @@
           }
         }
       },
-      "color-bg-badge-green-disabled": {
+      "color-bg-green-disabled": {
         "$type": "color",
         "$value": "#55713f",
         "$description": "",
@@ -874,7 +935,7 @@
           }
         }
       },
-      "color-text-badge-red": {
+      "color-text-red": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -888,7 +949,7 @@
           }
         }
       },
-      "color-text-badge-red-disabled": {
+      "color-text-red-disabled": {
         "$type": "color",
         "$value": "{color-grey-400}",
         "$description": "",
@@ -902,7 +963,7 @@
           }
         }
       },
-      "color-text-badge-grey": {
+      "color-text-grey": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -916,7 +977,7 @@
           }
         }
       },
-      "color-text-badge-grey-disabled": {
+      "color-text-grey-disabled": {
         "$type": "color",
         "$value": "{color-grey-400}",
         "$description": "",
@@ -930,7 +991,21 @@
           }
         }
       },
-      "color-text-badge-green": {
+      "color-text-green": {
+        "$type": "color",
+        "$value": "{color-grey-0}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "color-text-green-disabled": {
         "$type": "color",
         "$value": "{color-grey-400}",
         "$description": "",
@@ -944,21 +1019,7 @@
           }
         }
       },
-      "color-text-badge-green-disabled": {
-        "$type": "color",
-        "$value": "{color-grey-400}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "TEXT_FILL"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-border-badge-red": {
+      "color-border-red": {
         "$type": "color",
         "$value": "{color-bluegrey-900}",
         "$description": "",
@@ -972,7 +1033,7 @@
           }
         }
       },
-      "color-border-badge-red-disabled": {
+      "color-border-red-disabled": {
         "$type": "color",
         "$value": "{color-bluegrey-900}",
         "$description": "",
@@ -986,7 +1047,7 @@
           }
         }
       },
-      "color-border-badge-grey": {
+      "color-border-grey": {
         "$type": "color",
         "$value": "{color-bluegrey-200}",
         "$description": "",
@@ -1000,7 +1061,7 @@
           }
         }
       },
-      "color-border-badge-grey-disabled": {
+      "color-border-grey-disabled": {
         "$type": "color",
         "$value": "{color-bluegrey-400}",
         "$description": "",
@@ -1014,7 +1075,7 @@
           }
         }
       },
-      "color-border-badge-green": {
+      "color-border-green": {
         "$type": "color",
         "$value": "{color-bluegrey-900}",
         "$description": "",
@@ -1028,7 +1089,7 @@
           }
         }
       },
-      "color-border-badge-green-disabled": {
+      "color-border-green-disabled": {
         "$type": "color",
         "$value": "{color-bluegrey-900}",
         "$description": "",
@@ -1044,9 +1105,9 @@
       }
     },
     "button": {
-      "color-text-button": {
+      "color-text": {
         "$type": "color",
-        "$value": "{semantic.color-text-inverted}",
+        "$value": "{global.color-text-inverted}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1058,21 +1119,7 @@
           }
         }
       },
-      "color-text-button-secondary": {
-        "$type": "color",
-        "$value": "{color-grey-0}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_FILLS"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-text-button-secondary-hover": {
+      "color-text-secondary": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1086,7 +1133,7 @@
           }
         }
       },
-      "color-text-button-secondary-active": {
+      "color-text-secondary-hover": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1100,7 +1147,21 @@
           }
         }
       },
-      "color-text-button-secondary-disabled": {
+      "color-text-secondary-active": {
+        "$type": "color",
+        "$value": "{color-grey-0}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "color-text-secondary-disabled": {
         "$type": "color",
         "$value": "{color-grey-400}",
         "$description": "",
@@ -1114,7 +1175,7 @@
           }
         }
       },
-      "color-text-button-tertiary": {
+      "color-text-tertiary": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1128,7 +1189,7 @@
           }
         }
       },
-      "color-text-button-tertiary-hover": {
+      "color-text-toggle": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1142,7 +1203,7 @@
           }
         }
       },
-      "color-text-button-tertiary-active": {
+      "color-text-toggle-hover": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1156,7 +1217,21 @@
           }
         }
       },
-      "color-text-button-tertiary-disabled": {
+      "color-text-toggle-active": {
+        "$type": "color",
+        "$value": "{color-grey-0}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_FILLS"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "color-text-toggle-disabled": {
         "$type": "color",
         "$value": "{color-grey-400}",
         "$description": "",
@@ -1170,7 +1245,7 @@
           }
         }
       },
-      "color-text-button-toggle": {
+      "color-text-tertiary-hover": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1184,7 +1259,7 @@
           }
         }
       },
-      "color-text-button-toggle-hover": {
+      "color-text-tertiary-active": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1198,21 +1273,7 @@
           }
         }
       },
-      "color-text-button-toggle-active": {
-        "$type": "color",
-        "$value": "{color-grey-0}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_FILLS"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-text-button-toggle-disabled": {
+      "color-text-tertiary-disabled": {
         "$type": "color",
         "$value": "{color-grey-400}",
         "$description": "",
@@ -1228,9 +1289,9 @@
       }
     },
     "input": {
-      "color-bg-input": {
+      "color-bg": {
         "$type": "color",
-        "$value": "{semantic.color-bg}",
+        "$value": "{global.color-bg}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1243,7 +1304,7 @@
           }
         }
       },
-      "color-bg-input-readonly": {
+      "color-bg-readonly": {
         "$type": "color",
         "$value": "{color-bluegrey-700}",
         "$description": "",
@@ -1258,9 +1319,9 @@
           }
         }
       },
-      "color-text-input": {
+      "color-text": {
         "$type": "color",
-        "$value": "{semantic.color-text-primary}",
+        "$value": "{global.color-text-primary}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1272,9 +1333,9 @@
           }
         }
       },
-      "color-text-input-disabled": {
+      "color-text-disabled": {
         "$type": "color",
-        "$value": "{semantic.color-text-disabled}",
+        "$value": "{global.color-text-disabled}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1286,9 +1347,9 @@
           }
         }
       },
-      "color-text-placeholder-input": {
+      "color-text-placeholder": {
         "$type": "color",
-        "$value": "{semantic.color-text-primary}",
+        "$value": "{global.color-text-primary}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1300,9 +1361,9 @@
           }
         }
       },
-      "color-text-placeholder-input-disabled": {
+      "color-text-placeholder-disabled": {
         "$type": "color",
-        "$value": "{semantic.color-text-disabled}",
+        "$value": "{global.color-text-disabled}",
         "$description": "",
         "$extensions": {
           "com.figma": {
@@ -1316,7 +1377,7 @@
       }
     },
     "link": {
-      "color-text-link": {
+      "color-text": {
         "$type": "color",
         "$value": "{color-lightblue-100}",
         "$description": "",
@@ -1330,7 +1391,7 @@
           }
         }
       },
-      "color-text-link-hover": {
+      "color-text-hover": {
         "$type": "color",
         "$value": "{color-lightblue-100}",
         "$description": "",
@@ -1344,7 +1405,7 @@
           }
         }
       },
-      "color-text-link-active": {
+      "color-text-active": {
         "$type": "color",
         "$value": "{color-lightblue-50}",
         "$description": "",
@@ -1358,7 +1419,7 @@
           }
         }
       },
-      "color-text-link-visited": {
+      "color-text-visited": {
         "$type": "color",
         "$value": "{color-deeppurple-100}",
         "$description": "Not used in UI kit",
@@ -1372,7 +1433,7 @@
           }
         }
       },
-      "color-text-link-disabled": {
+      "color-text-disabled": {
         "$type": "color",
         "$value": "{color-bluegrey-200}",
         "$description": "Not used in UI kit",
@@ -1388,7 +1449,7 @@
       }
     },
     "skeleton": {
-      "color-bg-skeleton-start": {
+      "color-bg-start": {
         "$type": "color",
         "$value": "#657d88",
         "$description": "",
@@ -1402,7 +1463,7 @@
           }
         }
       },
-      "color-bg-skeleton-end": {
+      "color-bg-end": {
         "$type": "color",
         "$value": "{color-bluegrey-600}",
         "$description": "",
@@ -1418,7 +1479,7 @@
       }
     },
     "signal": {
-      "color-signal-success-icon": {
+      "color-icon-success": {
         "$type": "color",
         "$value": "{color-lightgreen-300}",
         "$description": "",
@@ -1432,7 +1493,7 @@
           }
         }
       },
-      "color-signal-success-text": {
+      "color-text-success": {
         "$type": "color",
         "$value": "{color-lightgreen-100}",
         "$description": "",
@@ -1446,7 +1507,7 @@
           }
         }
       },
-      "color-signal-success-border": {
+      "color-border-success": {
         "$type": "color",
         "$value": "{color-lightgreen-300}",
         "$description": "",
@@ -1460,7 +1521,7 @@
           }
         }
       },
-      "color-signal-success-bg": {
+      "color-bg-success": {
         "$type": "color",
         "$value": "#435046",
         "$description": "",
@@ -1475,7 +1536,7 @@
           }
         }
       },
-      "color-signal-error-icon": {
+      "color-icon-error": {
         "$type": "color",
         "$value": "{color-deeporange-900}",
         "$description": "",
@@ -1489,7 +1550,7 @@
           }
         }
       },
-      "color-signal-error-text": {
+      "color-text-error": {
         "$type": "color",
         "$value": "{color-red-100}",
         "$description": "",
@@ -1503,7 +1564,7 @@
           }
         }
       },
-      "color-signal-error-border": {
+      "color-border-error": {
         "$type": "color",
         "$value": "{color-deeporange-800}",
         "$description": "",
@@ -1517,7 +1578,7 @@
           }
         }
       },
-      "color-signal-error-bg": {
+      "color-bg-error": {
         "$type": "color",
         "$value": "#574040",
         "$description": "",
@@ -1532,7 +1593,7 @@
           }
         }
       },
-      "color-signal-warning-icon": {
+      "color-icon-warning": {
         "$type": "color",
         "$value": "{color-orange-300}",
         "$description": "",
@@ -1546,7 +1607,7 @@
           }
         }
       },
-      "color-signal-warning-text": {
+      "color-text-warning": {
         "$type": "color",
         "$value": "{color-orange-100}",
         "$description": "",
@@ -1560,7 +1621,7 @@
           }
         }
       },
-      "color-signal-warning-border": {
+      "color-border-warning": {
         "$type": "color",
         "$value": "{color-orange-300}",
         "$description": "",
@@ -1574,7 +1635,7 @@
           }
         }
       },
-      "color-signal-warning-bg": {
+      "color-bg-warning": {
         "$type": "color",
         "$value": "#604d41",
         "$description": "",
@@ -1589,7 +1650,7 @@
           }
         }
       },
-      "color-signal-info-icon": {
+      "color-icon-info": {
         "$type": "color",
         "$value": "{color-blue-300}",
         "$description": "",
@@ -1603,7 +1664,7 @@
           }
         }
       },
-      "color-signal-info-text": {
+      "color-text-info": {
         "$type": "color",
         "$value": "{color-blue-100}",
         "$description": "",
@@ -1617,7 +1678,7 @@
           }
         }
       },
-      "color-signal-info-border": {
+      "color-border-info": {
         "$type": "color",
         "$value": "{color-blue-300}",
         "$description": "",
@@ -1631,7 +1692,7 @@
           }
         }
       },
-      "color-signal-info-bg": {
+      "color-bg-info": {
         "$type": "color",
         "$value": "#3b4a5d",
         "$description": "",
@@ -1648,7 +1709,7 @@
       }
     },
     "slider": {
-      "color-text-slider-circle": {
+      "color-text-circle": {
         "$type": "color",
         "$value": "{color-grey-950}",
         "$description": "",
@@ -1662,7 +1723,7 @@
           }
         }
       },
-      "color-text-slider-circle-disabled": {
+      "color-text-circle-disabled": {
         "$type": "color",
         "$value": "{color-grey-600}",
         "$description": "",
@@ -1678,7 +1739,7 @@
       }
     },
     "tab": {
-      "color-text-tab": {
+      "color-text": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1694,7 +1755,7 @@
           }
         }
       },
-      "color-text-tab-hover": {
+      "color-text-hover": {
         "$type": "color",
         "$value": "{color-bluegrey-200}",
         "$description": "",
@@ -1710,7 +1771,7 @@
           }
         }
       },
-      "color-text-tab-disabled": {
+      "color-text-disabled": {
         "$type": "color",
         "$value": "{color-grey-400}",
         "$description": "",
@@ -1728,7 +1789,7 @@
       }
     },
     "tag": {
-      "color-bg-tag-indigo": {
+      "color-bg-indigo": {
         "$type": "color",
         "$value": "{color-indigo-200}",
         "$description": "",
@@ -1743,7 +1804,7 @@
           }
         }
       },
-      "color-bg-tag-indigo-hover": {
+      "color-bg-indigo-hover": {
         "$type": "color",
         "$value": "{color-indigo-300}",
         "$description": "",
@@ -1758,7 +1819,7 @@
           }
         }
       },
-      "color-bg-tag-indigo-active": {
+      "color-bg-indigo-active": {
         "$type": "color",
         "$value": "{color-indigo-400}",
         "$description": "",
@@ -1773,7 +1834,7 @@
           }
         }
       },
-      "color-bg-tag-cyan": {
+      "color-bg-cyan": {
         "$type": "color",
         "$value": "{color-cyan-200}",
         "$description": "",
@@ -1788,7 +1849,7 @@
           }
         }
       },
-      "color-bg-tag-cyan-hover": {
+      "color-bg-cyan-hover": {
         "$type": "color",
         "$value": "{color-cyan-300}",
         "$description": "",
@@ -1803,7 +1864,7 @@
           }
         }
       },
-      "color-bg-tag-cyan-active": {
+      "color-bg-cyan-active": {
         "$type": "color",
         "$value": "{color-cyan-400}",
         "$description": "",
@@ -1818,7 +1879,7 @@
           }
         }
       },
-      "color-bg-tag-bluegrey": {
+      "color-bg-bluegrey": {
         "$type": "color",
         "$value": "{color-bluegrey-200}",
         "$description": "",
@@ -1833,7 +1894,7 @@
           }
         }
       },
-      "color-bg-tag-bluegrey-hover": {
+      "color-bg-bluegrey-hover": {
         "$type": "color",
         "$value": "{color-bluegrey-300}",
         "$description": "",
@@ -1848,7 +1909,7 @@
           }
         }
       },
-      "color-bg-tag-bluegrey-active": {
+      "color-bg-bluegrey-active": {
         "$type": "color",
         "$value": "{color-bluegrey-400}",
         "$description": "",
@@ -1863,7 +1924,7 @@
           }
         }
       },
-      "color-bg-tag-outline": {
+      "color-bg-outline": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1878,7 +1939,7 @@
           }
         }
       },
-      "color-bg-tag-outline-hover": {
+      "color-bg-outline-hover": {
         "$type": "color",
         "$value": "{color-bluegrey-50}",
         "$description": "",
@@ -1893,7 +1954,7 @@
           }
         }
       },
-      "color-bg-tag-outline-disabled": {
+      "color-bg-outline-disabled": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1908,7 +1969,7 @@
           }
         }
       },
-      "color-bg-tag-disabled": {
+      "color-bg-disabled": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1923,7 +1984,7 @@
           }
         }
       },
-      "color-text-tag": {
+      "color-text": {
         "$type": "color",
         "$value": "{color-grey-950}",
         "$description": "",
@@ -1937,7 +1998,7 @@
           }
         }
       },
-      "color-text-tag-outline": {
+      "color-text-outline": {
         "$type": "color",
         "$value": "{color-grey-0}",
         "$description": "",
@@ -1951,7 +2012,7 @@
           }
         }
       },
-      "color-text-tag-disabled": {
+      "color-text-disabled": {
         "$type": "color",
         "$value": "{color-grey-950}",
         "$description": "",
@@ -1965,7 +2026,7 @@
           }
         }
       },
-      "color-text-tag-outline-disabled": {
+      "color-text-outline-disabled": {
         "$type": "color",
         "$value": "{color-grey-600}",
         "$description": "",
@@ -1974,82 +2035,6 @@
             "hiddenFromPublishing": false,
             "scopes": [
               "TEXT_FILL"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
-    },
-    "toggle": {
-      "color-bg-toggle-off": {
-        "$type": "color",
-        "$value": "{color-grey-500}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-bg-toggle-off-hover": {
-        "$type": "color",
-        "$value": "{color-grey-400}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-bg-toggle-off-disabled": {
-        "$type": "color",
-        "$value": "#686e71",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      }
-    }
-  },
-  "figma-exclusive": {
-    "placeholder": {
-      "color-placeholder-bg": {
-        "$type": "color",
-        "$value": "{color-pink-900}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
-            ],
-            "codeSyntax": {}
-          }
-        }
-      },
-      "color-placeholder-border": {
-        "$type": "color",
-        "$value": "{color-pink-50}",
-        "$description": "",
-        "$extensions": {
-          "com.figma": {
-            "hiddenFromPublishing": false,
-            "scopes": [
-              "ALL_SCOPES"
             ],
             "codeSyntax": {}
           }
