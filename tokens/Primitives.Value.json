@@ -139,7 +139,7 @@
       }
     }
   },
-  "color-red-a100": {
+  "color-red-a-100": {
     "$type": "color",
     "$value": "#ff8a80",
     "$description": "",
@@ -153,7 +153,7 @@
       }
     }
   },
-  "color-red-a200": {
+  "color-red-a-200": {
     "$type": "color",
     "$value": "#ff5252",
     "$description": "",
@@ -167,7 +167,7 @@
       }
     }
   },
-  "color-red-a400": {
+  "color-red-a-400": {
     "$type": "color",
     "$value": "#ff1744",
     "$description": "",
@@ -181,7 +181,7 @@
       }
     }
   },
-  "color-red-a700": {
+  "color-red-a-700": {
     "$type": "color",
     "$value": "#d50000",
     "$description": "",
@@ -335,7 +335,7 @@
       }
     }
   },
-  "color-pink-a100": {
+  "color-pink-a-100": {
     "$type": "color",
     "$value": "#ff80ab",
     "$description": "",
@@ -349,7 +349,7 @@
       }
     }
   },
-  "color-pink-a200": {
+  "color-pink-a-200": {
     "$type": "color",
     "$value": "#ff4081",
     "$description": "",
@@ -363,7 +363,7 @@
       }
     }
   },
-  "color-pink-a400": {
+  "color-pink-a-400": {
     "$type": "color",
     "$value": "#f50057",
     "$description": "",
@@ -377,7 +377,7 @@
       }
     }
   },
-  "color-pink-a700": {
+  "color-pink-a-700": {
     "$type": "color",
     "$value": "#c51162",
     "$description": "",
@@ -531,7 +531,7 @@
       }
     }
   },
-  "color-purple-a100": {
+  "color-purple-a-100": {
     "$type": "color",
     "$value": "#ea80fc",
     "$description": "",
@@ -545,7 +545,7 @@
       }
     }
   },
-  "color-purple-a200": {
+  "color-purple-a-200": {
     "$type": "color",
     "$value": "#e040fb",
     "$description": "",
@@ -559,7 +559,7 @@
       }
     }
   },
-  "color-purple-a400": {
+  "color-purple-a-400": {
     "$type": "color",
     "$value": "#d500f9",
     "$description": "",
@@ -573,7 +573,7 @@
       }
     }
   },
-  "color-purple-a700": {
+  "color-purple-a-700": {
     "$type": "color",
     "$value": "#aa00ff",
     "$description": "",
@@ -727,7 +727,7 @@
       }
     }
   },
-  "color-deeppurple-a100": {
+  "color-deeppurple-a-100": {
     "$type": "color",
     "$value": "#b388ff",
     "$description": "",
@@ -741,7 +741,7 @@
       }
     }
   },
-  "color-deeppurple-a200": {
+  "color-deeppurple-a-200": {
     "$type": "color",
     "$value": "#7c4dff",
     "$description": "",
@@ -755,7 +755,7 @@
       }
     }
   },
-  "color-deeppurple-a400": {
+  "color-deeppurple-a-400": {
     "$type": "color",
     "$value": "#651fff",
     "$description": "",
@@ -769,7 +769,7 @@
       }
     }
   },
-  "color-deeppurple-a700": {
+  "color-deeppurple-a-700": {
     "$type": "color",
     "$value": "#6200ea",
     "$description": "",
@@ -923,7 +923,7 @@
       }
     }
   },
-  "color-indigo-a100": {
+  "color-indigo-a-100": {
     "$type": "color",
     "$value": "#8c9eff",
     "$description": "",
@@ -937,7 +937,7 @@
       }
     }
   },
-  "color-indigo-a200": {
+  "color-indigo-a-200": {
     "$type": "color",
     "$value": "#536dfe",
     "$description": "",
@@ -951,7 +951,7 @@
       }
     }
   },
-  "color-indigo-a400": {
+  "color-indigo-a-400": {
     "$type": "color",
     "$value": "#3d5afe",
     "$description": "",
@@ -965,7 +965,7 @@
       }
     }
   },
-  "color-indigo-a700": {
+  "color-indigo-a-700": {
     "$type": "color",
     "$value": "#304ffe",
     "$description": "",
@@ -1119,7 +1119,7 @@
       }
     }
   },
-  "color-blue-a100": {
+  "color-blue-a-100": {
     "$type": "color",
     "$value": "#82b1ff",
     "$description": "",
@@ -1133,7 +1133,7 @@
       }
     }
   },
-  "color-blue-a200": {
+  "color-blue-a-200": {
     "$type": "color",
     "$value": "#448aff",
     "$description": "",
@@ -1147,7 +1147,7 @@
       }
     }
   },
-  "color-blue-a400": {
+  "color-blue-a-400": {
     "$type": "color",
     "$value": "#2979ff",
     "$description": "",
@@ -1161,7 +1161,7 @@
       }
     }
   },
-  "color-blue-a700": {
+  "color-blue-a-700": {
     "$type": "color",
     "$value": "#066ae3",
     "$description": "Primary blue",
@@ -1315,7 +1315,7 @@
       }
     }
   },
-  "color-lightblue-a100": {
+  "color-lightblue-a-100": {
     "$type": "color",
     "$value": "#80d8ff",
     "$description": "",
@@ -1329,7 +1329,7 @@
       }
     }
   },
-  "color-lightblue-a200": {
+  "color-lightblue-a-200": {
     "$type": "color",
     "$value": "#40c4ff",
     "$description": "",
@@ -1343,7 +1343,7 @@
       }
     }
   },
-  "color-lightblue-a400": {
+  "color-lightblue-a-400": {
     "$type": "color",
     "$value": "#00b0ff",
     "$description": "",
@@ -1357,7 +1357,7 @@
       }
     }
   },
-  "color-lightblue-a700": {
+  "color-lightblue-a-700": {
     "$type": "color",
     "$value": "#0091ea",
     "$description": "",
@@ -1511,7 +1511,7 @@
       }
     }
   },
-  "color-cyan-a100": {
+  "color-cyan-a-100": {
     "$type": "color",
     "$value": "#84ffff",
     "$description": "",
@@ -1525,7 +1525,7 @@
       }
     }
   },
-  "color-cyan-a200": {
+  "color-cyan-a-200": {
     "$type": "color",
     "$value": "#18ffff",
     "$description": "",
@@ -1539,7 +1539,7 @@
       }
     }
   },
-  "color-cyan-a400": {
+  "color-cyan-a-400": {
     "$type": "color",
     "$value": "#00e5ff",
     "$description": "",
@@ -1553,7 +1553,7 @@
       }
     }
   },
-  "color-cyan-a700": {
+  "color-cyan-a-700": {
     "$type": "color",
     "$value": "#00b8d4",
     "$description": "",
@@ -1707,7 +1707,7 @@
       }
     }
   },
-  "color-teal-a100": {
+  "color-teal-a-100": {
     "$type": "color",
     "$value": "#a7ffeb",
     "$description": "",
@@ -1721,7 +1721,7 @@
       }
     }
   },
-  "color-teal-a200": {
+  "color-teal-a-200": {
     "$type": "color",
     "$value": "#64ffda",
     "$description": "",
@@ -1735,7 +1735,7 @@
       }
     }
   },
-  "color-teal-a400": {
+  "color-teal-a-400": {
     "$type": "color",
     "$value": "#1de9b6",
     "$description": "",
@@ -1749,7 +1749,7 @@
       }
     }
   },
-  "color-teal-a700": {
+  "color-teal-a-700": {
     "$type": "color",
     "$value": "#00bfa5",
     "$description": "",
@@ -1903,7 +1903,7 @@
       }
     }
   },
-  "color-green-a100": {
+  "color-green-a-100": {
     "$type": "color",
     "$value": "#b9f6ca",
     "$description": "",
@@ -1917,7 +1917,7 @@
       }
     }
   },
-  "color-green-a200": {
+  "color-green-a-200": {
     "$type": "color",
     "$value": "#69f0ae",
     "$description": "",
@@ -1931,7 +1931,7 @@
       }
     }
   },
-  "color-green-a400": {
+  "color-green-a-400": {
     "$type": "color",
     "$value": "#00e676",
     "$description": "",
@@ -1945,7 +1945,7 @@
       }
     }
   },
-  "color-green-a700": {
+  "color-green-a-700": {
     "$type": "color",
     "$value": "#00c853",
     "$description": "",
@@ -2421,7 +2421,7 @@
       }
     }
   },
-  "color-lightgreen-a100": {
+  "color-lightgreen-a-100": {
     "$type": "color",
     "$value": "#ccff90",
     "$description": "",
@@ -2435,7 +2435,7 @@
       }
     }
   },
-  "color-lightgreen-a200": {
+  "color-lightgreen-a-200": {
     "$type": "color",
     "$value": "#b2ff59",
     "$description": "",
@@ -2449,7 +2449,7 @@
       }
     }
   },
-  "color-lightgreen-a400": {
+  "color-lightgreen-a-400": {
     "$type": "color",
     "$value": "#76ff03",
     "$description": "",
@@ -2463,7 +2463,7 @@
       }
     }
   },
-  "color-lightgreen-a700": {
+  "color-lightgreen-a-700": {
     "$type": "color",
     "$value": "#64dd17",
     "$description": "",
@@ -2757,7 +2757,7 @@
       }
     }
   },
-  "color-lime-a100": {
+  "color-lime-a-100": {
     "$type": "color",
     "$value": "#f4ff81",
     "$description": "",
@@ -2771,7 +2771,7 @@
       }
     }
   },
-  "color-lime-a200": {
+  "color-lime-a-200": {
     "$type": "color",
     "$value": "#eeff41",
     "$description": "",
@@ -2785,7 +2785,7 @@
       }
     }
   },
-  "color-lime-a400": {
+  "color-lime-a-400": {
     "$type": "color",
     "$value": "#c6ff00",
     "$description": "",
@@ -2799,7 +2799,7 @@
       }
     }
   },
-  "color-lime-a700": {
+  "color-lime-a-700": {
     "$type": "color",
     "$value": "#aeea00",
     "$description": "",
@@ -2953,7 +2953,7 @@
       }
     }
   },
-  "color-yellow-a100": {
+  "color-yellow-a-100": {
     "$type": "color",
     "$value": "#ffff8d",
     "$description": "",
@@ -2967,7 +2967,7 @@
       }
     }
   },
-  "color-yellow-a200": {
+  "color-yellow-a-200": {
     "$type": "color",
     "$value": "#ffff00",
     "$description": "",
@@ -2981,7 +2981,7 @@
       }
     }
   },
-  "color-yellow-a400": {
+  "color-yellow-a-400": {
     "$type": "color",
     "$value": "#ffea00",
     "$description": "",
@@ -2995,7 +2995,7 @@
       }
     }
   },
-  "color-yellow-a700": {
+  "color-yellow-a-700": {
     "$type": "color",
     "$value": "#ffd600",
     "$description": "",
@@ -3149,7 +3149,7 @@
       }
     }
   },
-  "color-amber-a100": {
+  "color-amber-a-100": {
     "$type": "color",
     "$value": "#ffe57f",
     "$description": "",
@@ -3163,7 +3163,7 @@
       }
     }
   },
-  "color-amber-a200": {
+  "color-amber-a-200": {
     "$type": "color",
     "$value": "#ffd740",
     "$description": "",
@@ -3177,7 +3177,7 @@
       }
     }
   },
-  "color-amber-a400": {
+  "color-amber-a-400": {
     "$type": "color",
     "$value": "#ffc400",
     "$description": "",
@@ -3191,7 +3191,7 @@
       }
     }
   },
-  "color-amber-7400": {
+  "color-amber-a-700": {
     "$type": "color",
     "$value": "#ffab00",
     "$description": "",
@@ -3345,7 +3345,7 @@
       }
     }
   },
-  "color-deeporange-a100": {
+  "color-deeporange-a-100": {
     "$type": "color",
     "$value": "#ff9e80",
     "$description": "",
@@ -3359,7 +3359,7 @@
       }
     }
   },
-  "color-deeporange-a200": {
+  "color-deeporange-a-200": {
     "$type": "color",
     "$value": "#ff6e40",
     "$description": "",
@@ -3373,7 +3373,7 @@
       }
     }
   },
-  "color-deeporange-a300": {
+  "color-deeporange-a-400": {
     "$type": "color",
     "$value": "#ff3d00",
     "$description": "",
@@ -3387,7 +3387,7 @@
       }
     }
   },
-  "color-deeporange-a700": {
+  "color-deeporange-a-700": {
     "$type": "color",
     "$value": "#dd2c00",
     "$description": "",
@@ -3541,7 +3541,7 @@
       }
     }
   },
-  "color-orange-a100": {
+  "color-orange-a-100": {
     "$type": "color",
     "$value": "#ffd180",
     "$description": "",
@@ -3555,7 +3555,7 @@
       }
     }
   },
-  "color-orange-a200": {
+  "color-orange-a-200": {
     "$type": "color",
     "$value": "#ffab40",
     "$description": "",
@@ -3569,7 +3569,7 @@
       }
     }
   },
-  "color-orange-a400": {
+  "color-orange-a-400": {
     "$type": "color",
     "$value": "#ff9100",
     "$description": "",
@@ -3583,7 +3583,7 @@
       }
     }
   },
-  "color-orange-a700": {
+  "color-orange-a-700": {
     "$type": "color",
     "$value": "#ff6d00",
     "$description": "",
